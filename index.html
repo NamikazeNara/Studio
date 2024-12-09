@@ -8,16 +8,26 @@
 </head>
 <body>
   <header>
-    <div class="container">
-      <h1>Welcome to My Personal Website</h1>
-      <p>Hello! I'm Namikaze Nara, and this is my corner on the web.</p>
-    </div>
+    <section id="about" class="fade-in">
+      <div class="container">
+        <h1>Welcome to My Personal Website</h1>
+        <p>Hello! I'm Namikaze Nara, and this is my corner on the web.</p>
+      </div>
+    </section>
   </header>
-
+  
   <nav>
     <div class="container">
       <ul>
-        <li><a href="#about">About</a></li>
+        <li><a href="#about"><div class="profile">
+          <img src="profile.jpg" alt="Your Profile Picture">
+          <p>Hi, I'm Namikaze Nara! Let's connect:</p>
+          <div class="social-links">
+            <a href="https://twitter.com/yourusername" target="_blank">Twitter</a> |
+            <a href="https://linkedin.com/in/yourusername" target="_blank">LinkedIn</a> |
+            <a href="https://github.com/yourusername" target="_blank">GitHub</a>
+          </div>
+        </div></a></li>
         <li><a href="#projects">Projects</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
@@ -25,20 +35,16 @@
   </nav>
 
   <section id="about" class="fade-in">
-    <div class="container profile">
-      <img src="Profile.jpg" alt="Your Profile Picture">
-      <p>Hi, I'm Namikaze Nara! Let's connect:</p>
-      <div class="social-links">
-        <a href="https://twitter.com/NamikazeNara" target="_blank">Twitter</a> |
-        <a href="https://github.com/NamikazeNara" target="_blank">GitHub</a> |
-        <a href="https://tiktok.com/@wannabeworkaholic" target="_blank">TikTok</a>
-      </div>
+    <div class="container">
+      <h2>About Me</h2>
+      <p>This section is all about who I am and what I do. Share a brief bio, your hobbies, or your career!</p>
     </div>
   </section>
 
   <section id="projects" class="fade-in">
     <div class="container">
       <h2>Projects</h2>
+      <p>Here you can showcase your favorite projects or work experiences!</p>
       <ul>
         <li><strong>Project 1:</strong> Description of your first project.</li>
         <li><strong>Project 2:</strong> Description of your second project.</li>
@@ -49,18 +55,7 @@
   <section id="contact" class="fade-in">
     <div class="container">
       <h2>Contact Me</h2>
-      <form action="https://formspree.io/f/your-form-id" method="POST">
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name" required>
-        
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="_replyto" required>
-        
-        <label for="message">Message:</label>
-        <textarea id="message" name="message" rows="4" required></textarea>
-        
-        <button type="submit">Send</button>
-      </form>
+      <p>Feel free to reach out to me via email at <a href="mailto:fadilramadhani228@gmail.com">fadilramadhani228@gmail.com</a>.</p>
     </div>
   </section>
 
@@ -72,7 +67,6 @@
 
   <script>
     const elements = document.querySelectorAll('.fade-in');
-
     const showOnScroll = () => {
       elements.forEach(el => {
         const rect = el.getBoundingClientRect();
@@ -81,10 +75,7 @@
         }
       });
     };
-
     window.addEventListener('scroll', showOnScroll);
   </script>
 </body>
 </html>
-
-  
