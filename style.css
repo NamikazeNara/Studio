@@ -32,7 +32,7 @@ body, h1, h2, h3, p, ul, li, a, img, form, input, textarea, button {
   
   /* Navigation */
   nav {
-    background: #0072ff;
+    background: none;
     padding: 10px 0;
   }
   
@@ -200,26 +200,3 @@ header p {
     font-size: 1.2rem;
 }
 
-/* Navigation */
-nav {
-    background: #0072ff;
-    padding: 10px 0;
-}
-...
-/* Menghilangkan warna biru yang menutupi latar belakang header */
-header {
-    background: none; /* Menghapus latar belakang biru atau memberikan transparansi */
-    color: white; /* Pastikan teks tetap putih */
-}
-
-/* Jika Anda ingin menggunakan gambar latar belakang di header */
-header {
-    background: url('your-background-image-url.jpg') no-repeat center center/cover;
-    color: white;
-}
-
-/* Untuk navbar jika perlu */
-nav {
-    background: none; /* Menghapus latar belakang biru */
-    color: white; /* Pastikan teks navigasi tetap putih */
-}
