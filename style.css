@@ -169,7 +169,7 @@ body, h1, h2, h3, p, ul, li, a, img, form, input, textarea, button {
     transform: translateY(0);
   }
 header {
-  background: url('your-image-url.jpg') no-repeat center center/cover;
+  background: url('https://images.pexels.com/photos/1236044/pexels-photo-1236044.jpeg?cs=srgb&dl=pexels-cedric-1236044.jpg&fm=jpg') no-repeat center center/cover;
   color: white;
   text-align: center;
   padding: 20px 0;
