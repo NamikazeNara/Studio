@@ -168,34 +168,3 @@ body, h1, h2, h3, p, ul, li, a, img, form, input, textarea, button {
     opacity: 1;
     transform: translateY(0);
   }
-  /* Gunakan gambar sebagai background */
-body {
-  background-image: url('https://itkoding.com/wp-content/uploads/2023/07/background-3d-keren.jpg');
-  background-size: cover; /* Menyesuaikan ukuran gambar agar memenuhi layar */
-  background-position: center center; /* Menjaga gambar tetap di tengah */
-  background-attachment: fixed; /* Membuat gambar tetap di tempat saat menggulir */
-  margin: 0;
-  padding: 0;
-  font-family: Arial, sans-serif; /* Pilih font default untuk situs Anda */
-}
-
-header {
-  color: white; /* Mengubah teks menjadi putih agar kontras dengan background */
-  padding: 50px;
-  text-align: center;
-}
-
-h1 {
-  font-size: 3rem;
-}
-
-p {
-  font-size: 1.2rem;
-}
-
-/* Style untuk elemen lain, bisa disesuaikan */
-.container {
-  text-align: center;
-}
-
-        
