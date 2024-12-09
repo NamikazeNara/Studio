@@ -1,4 +1,4 @@
-/* Reset dasar untuk memastikan konsistensi antar browser */
+
 body, h1, h2, h3, p, ul, li, a, img, form, input, textarea, button {
     margin: 0;
     padding: 0;
@@ -168,3 +168,9 @@ body, h1, h2, h3, p, ul, li, a, img, form, input, textarea, button {
     opacity: 1;
     transform: translateY(0);
   }
+header {
+  background: url('your-image-url.jpg') no-repeat center center/cover;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
