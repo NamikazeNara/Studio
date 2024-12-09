@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Personal Website</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Welcome to My Personal Website</h1>
+      <p>Hello! I'm Namikaze Nara, and this is my corner on the web.</p>
+    </div>
+  </header>
+
+  <nav>
+    <div class="container">
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <section id="about" class="fade-in">
+    <div class="container profile">
+      <img src="profile.jpg" alt="Your Profile Picture">
+      <p>Hi, I'm Namikaze Nara! Let's connect:</p>
+      <div class="social-links">
+        <a href="https://twitter.com/NamikazeNara" target="_blank">Twitter</a> |
+        <a href="https://github.com/NamikazeNara" target="_blank">GitHub</a> |
+        <a href="https://tiktok.com/@wannabeworkaholic" target="_blank">TikTok</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="fade-in">
+    <div class="container">
+      <h2>Projects</h2>
+      <ul>
+        <li><strong>Project 1:</strong> Description of your first project.</li>
+        <li><strong>Project 2:</strong> Description of your second project.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="contact" class="fade-in">
+    <div class="container">
+      <h2>Contact Me</h2>
+      <form action="https://formspree.io/f/your-form-id" method="POST">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="_replyto" required>
+        
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+        
+        <button type="submit">Send</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2024 Namikaze Nara. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    const elements = document.querySelectorAll('.fade-in');
+
+    const showOnScroll = () => {
+      elements.forEach(el => {
+        const rect = el.getBoundingClientRect();
+        if (rect.top < window.innerHeight) {
+          el.classList.add('show');
+        }
+      });
+    };
+
+    window.addEventListener('scroll', showOnScroll);
+  </script>
+</body>
+</html>
+
+  
