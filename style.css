@@ -174,3 +174,12 @@ header {
   text-align: center;
   padding: 20px 0;
 }
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-image: url('https://images.pexels.com/photos/1236044/pexels-photo-1236044.jpeg?cs=srgb&dl=pexels-cedric-1236044.jpg&fm=jpg');
+  background-size: cover; 
+  background-position: center center; 
+  background-attachment: fixed; 
+}
