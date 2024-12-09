@@ -9,7 +9,7 @@ body, h1, h2, h3, p, ul, li, a, img, form, input, textarea, button {
   body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    color: #333;
+    color: white;
     background-color: #f9f9f9;
   }
   
@@ -54,7 +54,7 @@ body, h1, h2, h3, p, ul, li, a, img, form, input, textarea, button {
   }
   
   nav ul li a:hover {
-    color: #00c6ff;
+    color: white;
   }
   
   /* Section Styling */
@@ -68,7 +68,7 @@ body, h1, h2, h3, p, ul, li, a, img, form, input, textarea, button {
   h2 {
     margin-bottom: 20px;
     font-size: 2rem;
-    color: #0072ff;
+    color:white;
   }
   
   p {
@@ -86,14 +86,14 @@ body, h1, h2, h3, p, ul, li, a, img, form, input, textarea, button {
   
   .profile .social-links a {
     margin: 0 10px;
-    color: #0072ff;
+    color: white;
     text-decoration: none;
     font-size: 1rem;
     transition: color 0.3s;
   }
   
   .profile .social-links a:hover {
-    color: #00c6ff;
+    color: white;
   }
   
   /* Projects Section */
@@ -105,11 +105,11 @@ body, h1, h2, h3, p, ul, li, a, img, form, input, textarea, button {
   ul li {
     margin: 10px 0;
     font-size: 1.1rem;
-    color: #555;
+    color: white;
   }
   
   ul li strong {
-    color: #0072ff;
+    color: white;
   }
   
   /* Contact Section */
@@ -206,3 +206,20 @@ nav {
     padding: 10px 0;
 }
 ...
+/* Menghilangkan warna biru yang menutupi latar belakang header */
+header {
+    background: none; /* Menghapus latar belakang biru atau memberikan transparansi */
+    color: white; /* Pastikan teks tetap putih */
+}
+
+/* Jika Anda ingin menggunakan gambar latar belakang di header */
+header {
+    background: url('your-background-image-url.jpg') no-repeat center center/cover;
+    color: white;
+}
+
+/* Untuk navbar jika perlu */
+nav {
+    background: none; /* Menghapus latar belakang biru */
+    color: white; /* Pastikan teks navigasi tetap putih */
+}
