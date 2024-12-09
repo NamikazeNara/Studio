@@ -199,4 +199,16 @@ header p {
     margin-top: 10px;
     font-size: 1.2rem;
 }
+/* Bagian Projects */
+#projects .container h2 {
+    color: white; /* Ubah warna teks h2 menjadi putih */
+}
+
+#projects .container p {
+    color: white; /* Ubah warna teks paragraf menjadi putih */
+}
+
+#projects .container ul li {
+    color: white; /* Ubah warna teks proyek menjadi putih */
+}
 
