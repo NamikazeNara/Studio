@@ -213,21 +213,3 @@ footer {
   height: 1.5em; /* Adjust to match font-size */
   margin-right: 10px;
 }
-
-/* style.css */
-/* Background header untuk Roadmap */
-#roadmap-header {
-  background: url('../path-to-your-background-image.jpg') no-repeat center center/cover; /* Ganti dengan gambar yang digunakan di index.html */
-  color: #fff;
-  padding: 50px 20px;
-  text-align: center;
-}
-
-#roadmap-header h2 {
-  font-size: 2.5rem;
-  margin-bottom: 10px;
-}
-
-#roadmap-header p {
-  font-size: 1.2rem;
-}
