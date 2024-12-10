@@ -213,18 +213,11 @@ footer {
   height: 1.5em; /* Adjust to match font-size */
   margin-right: 10px;
 }
-.resource-block {
-  background-color: #f4f4f4; /* Warna latar belakang */
-  border: 2px solid #ccc;   /* Garis tepi */
-  border-radius: 8px;       /* Sudut membulat */
-  padding: 20px;            /* Ruang dalam */
-  margin: 20px 0;           /* Jarak luar */
-  text-align: center;       /* Teks rata tengah */
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Bayangan */
-}
-
-.resource-block h3 {
-  margin: 0;                /* Hapus margin default */
-  color: #333;              /* Warna teks */
+.resources-heading {
+  background-color: rgba(0, 0, 0, 0.3); /* Memberikan latar belakang gelap dengan sedikit transparansi */
+  color: white;                          /* Warna teks */
+  padding: 5px 10px;                    /* Memberikan ruang di sekitar teks */
+  border-radius: 3px;                   /* Membuat sudut sedikit membulat */
+  display: inline-block;                /* Agar teks terlihat seperti blok */
 }
 
