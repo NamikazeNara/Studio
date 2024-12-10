@@ -213,9 +213,18 @@ footer {
   height: 1.5em; /* Adjust to match font-size */
   margin-right: 10px;
 }
-#roadmap-header {
-  background-color: rgba(0, 0, 0, 0.5);
-  color: white;
-  padding: 20px 0;
-  text-align: center;
+.resource-block {
+  background-color: #f4f4f4; /* Warna latar belakang */
+  border: 2px solid #ccc;   /* Garis tepi */
+  border-radius: 8px;       /* Sudut membulat */
+  padding: 20px;            /* Ruang dalam */
+  margin: 20px 0;           /* Jarak luar */
+  text-align: center;       /* Teks rata tengah */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Bayangan */
 }
+
+.resource-block h3 {
+  margin: 0;                /* Hapus margin default */
+  color: #333;              /* Warna teks */
+}
+
