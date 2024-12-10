@@ -178,26 +178,39 @@ footer {
   opacity: 1;
   transform: translateY(0);
 }
-.whatsapp-button {
+.email-button, .whatsapp-button {
   display: inline-flex;
   align-items: center;
   text-decoration: none;
-  background-color: #25D366;
-  color: white;
   padding: 10px 20px;
   border-radius: 5px;
-  font-size: 1rem;
+  font-size: 1rem; /* Default font size */
   font-weight: bold;
-  margin-top: 10px;
+  margin: 10px;
   transition: background-color 0.3s ease;
+}
+
+.email-button {
+  background-color: #D14836; /* Warna merah khas Gmail */
+  color: white;
+}
+
+.email-button:hover {
+  background-color: #B0342B;
+}
+
+.whatsapp-button {
+  background-color: #25D366; /* Warna hijau khas WhatsApp */
+  color: white;
 }
 
 .whatsapp-button:hover {
   background-color: #1DA955;
 }
 
-.whatsapp-icon {
-  width: auto;
-  height: 1.5em;
+.email-icon, .whatsapp-icon {
+  width: auto; /* Maintain aspect ratio */
+  height: 1.5em; /* Adjust to match font-size */
   margin-right: 10px;
 }
+
