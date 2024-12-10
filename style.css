@@ -213,3 +213,9 @@ footer {
   height: 1.5em; /* Adjust to match font-size */
   margin-right: 10px;
 }
+#roadmap-header {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
